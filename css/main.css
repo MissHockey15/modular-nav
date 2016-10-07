@@ -17,6 +17,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background-color: #e2e2e2;
 }
@@ -36,14 +40,18 @@ a:hover {
   color: #fff;
 }
 
-body {
-  margin: 0;
-}
-
 h1 {
   text-align: center;
 }
 
 ul {
   text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
 }
